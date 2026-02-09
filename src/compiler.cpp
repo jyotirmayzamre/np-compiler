@@ -1,4 +1,4 @@
-#include "Jyotirmay_Zamre_PA4_compiler.h"
+#include "compiler.h"
 
 extern int yyparse();
 

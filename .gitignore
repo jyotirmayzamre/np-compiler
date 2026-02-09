@@ -1,5 +1,6 @@
 Asm
+Quads
 compiler
-Jyotirmay_Zamre_PA4.tab.c
-Jyotirmay_Zamre_PA4.tab.h
+parser.tab.c
+parser.tab.h
 lex.yy.c

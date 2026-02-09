@@ -10,7 +10,7 @@ void asmEmitter::genAssembly(map<string, vector<Quad*>>& funcQuads){
 }
 
 void asmEmitter::print(int num){
-    ofstream File("Asm/Jyotirmay_Zamre_PA4_quads" + to_string(num) + ".asm");
+    ofstream File("Asm/a" + to_string(num) + ".asm");
     File << left;
     for (auto& line : code){
         File << line << "\n";

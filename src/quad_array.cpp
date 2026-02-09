@@ -11,7 +11,7 @@ extern unsigned int quadIndex;
 
 void QuadArray::print(int num){
     int i = 0;
-    ofstream File("Quads/Jyotirmay_Zamre_PA4_quads" + to_string(num) + ".out");
+    ofstream File("Quads/quads" + to_string(num) + ".out");
     File << left;
     for (auto& quad : arr){
         File << setw(10) << (to_string(i) + ":") << "\t" 

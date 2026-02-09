@@ -3,7 +3,6 @@ BISON = bison
 FLEX = flex
 CXXFLAGS = -Iinclude
 
-BASE = Jyotirmay_Zamre_PA4
 TARGET = compiler
 
 TEST_DIR = Tests
@@ -13,12 +12,12 @@ QUAD_DIR = Quads
 ASM_DIR = Asm
 
 all:
-	$(BISON) -d $(BASE).y
-	$(FLEX) -o lex.yy.c $(BASE).l
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(BASE).tab.c lex.yy.c src/*.cpp
+	$(BISON) -d parser.y
+	$(FLEX) -o lex.yy.c lexer.l
+	$(CXX) $(CXXFLAGS) -o $(TARGET) parser.tab.c lex.yy.c src/*.cpp
 
 clean:
-	rm -f $(TARGET) lex.yy.c $(BASE).tab.c $(BASE).tab.h $(ASM_DIR)/* $(QUAD_DIR)/*
+	rm -f $(TARGET) lex.yy.c parser.tab.c parser.tab.h $(ASM_DIR)/* $(QUAD_DIR)/*
 
 test:
 	@index=1; \

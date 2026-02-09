@@ -1,7 +1,7 @@
 %{
 #include <stdio.h>
 #include <stdlib.h>
-#include "Jyotirmay_Zamre_PA4_compiler.h"
+#include "compiler.h"
 int yylex(void);
 void yyerror(const char *s);
 %}

@@ -1,4 +1,4 @@
-#include "Jyotirmay_Zamre_PA4_compiler.h"
+#include "compiler.h"
 
 SymbolTable* GlobalST = new SymbolTable("main", nullptr);
 SymbolTable* currST = GlobalST;

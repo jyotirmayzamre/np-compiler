@@ -1,6 +1,6 @@
 %{
-#include "Jyotirmay_Zamre_PA4_compiler.h"
-#include "Jyotirmay_Zamre_PA4.tab.h"
+#include "compiler.h"
+#include "parser.tab.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
