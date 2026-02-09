@@ -1,6 +1,6 @@
 # NP Compiler
 
-A compiler implementation for the NP programming language, featuring lexical analysis, parsing, intermediate code generation (three-address code), and x86-64 assembly code generation. This project was completed as Programming Assignment 4 for CS-3340: Programming Languages and Translation at Ashoka University.
+A compiler implementation for the NanoPascal subset of the Pascal programming language, featuring lexical analysis, parsing, intermediate code generation (three-address code), and x86-64 assembly code generation. This project was completed as Programming Assignment 4 for CS-3340: Programming Languages and Translation at Ashoka University.
 
 ## Overview
 
@@ -79,7 +79,7 @@ This will process all files in the `Tests/` directory and output:
 
 ### Compiling Individual Programs
 
-To compile a specific NP source file, use the same naming convention as the files in the Tests directory and place the source file in Tests.
+To compile a specific NP source file, use the same naming convention as the files in the `Tests/` directory and place the source file in `Tests/`.
 
 ### Cleaning Build Files
 
