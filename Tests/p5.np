@@ -1,0 +1,13 @@
+PROGRAM nested;
+VAR x: INTEGER;
+FUNCTION f(a: INTEGER): INTEGER;
+BEGIN
+    f := a + 1
+END;
+FUNCTION g(b, c: INTEGER): INTEGER;
+BEGIN
+    g := b * c
+END;
+BEGIN
+    x := g(f(5), f(3))
+END.

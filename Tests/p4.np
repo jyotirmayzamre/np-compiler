@@ -1,0 +1,16 @@
+PROGRAM relational;
+VAR a, b: INTEGER;
+BEGIN
+    IF a < b THEN
+        a := 1;
+    IF a > b THEN
+        a := 2;
+    IF a <= b THEN
+        a := 3;
+    IF a >= b THEN
+        a := 4;
+    IF a = b THEN
+        a := 5;
+    IF a <> b THEN
+        a := 6
+END.

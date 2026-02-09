@@ -1,0 +1,29 @@
+{ Comprehensive test }
+PROGRAM comprehensive;
+VAR a, b, c: INTEGER;
+VAR result: STRING;
+FUNCTION max(x, y: INTEGER): INTEGER;
+BEGIN
+    IF x > y THEN
+        max := x
+    ELSE
+        max := y
+END;
+BEGIN
+    a := 10;
+    b := 20;
+    c := 0;
+    WHILE c < 5 DO
+        BEGIN
+            c := c + 1;
+            a := max(a, b);
+            IF a >= b THEN
+                BEGIN
+                    result := 'a is max';
+                    b := b + c
+                END
+            ELSE
+                a := a * 2
+        END;
+    result := 'Done'
+END.

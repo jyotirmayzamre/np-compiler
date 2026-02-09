@@ -1,0 +1,6 @@
+PROGRAM arithmetic;
+VAR result: INTEGER;
+BEGIN
+    result := 2 + 3 * 4 - 10 / 2;
+    result := (2 + 3) * (4 - 1)
+END.

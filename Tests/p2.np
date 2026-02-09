@@ -1,0 +1,15 @@
+PROGRAM functest;
+VAR result: INTEGER;
+FUNCTION add(x, y: INTEGER): INTEGER;
+BEGIN
+    add := x + y
+END;
+FUNCTION multi(a, b, c: INTEGER): INTEGER;
+VAR temp: INTEGER;
+BEGIN
+    temp := a * b;
+    multi := temp * c
+END;
+BEGIN
+    result := add(5, 3)
+END.
